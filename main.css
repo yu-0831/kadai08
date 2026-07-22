@@ -41,7 +41,7 @@ img {
 
 .course-img {
   width: 50%;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin: 15px 0;
   box-sizing: border-box;

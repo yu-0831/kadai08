@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+  background-color: #f4f7f6;
+  color: #333333;   font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  background-color: #1a365d; /* 濃いネイビー */
+  color: #ffffff;            /* 白文字 */
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  background-color: #e2e8f0; /* ライトグレー */
+  color: #2b6cb0;            /* ブルー */
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border-left: 5px solid #2b6cb0;
+  margin-top: 30px;
+}
+
+img {
+  border: 3px solid #cbd5e0;
+  border-radius: 6px;
+}
+
+.course-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #dd6b20;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+a:hover {
+  color: #c05621;
+  background-color: #feebc8;   padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+ol.study-list {
+\  list-style-type: lower-alpha;
+  padding-left: 25px;
+}
+
+ol.study-list li {
+  margin-bottom: 10px;
+}
+
+ul.check-list {
+  padding-left: 20px;
+}
+
+details.math-info {
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #2d3748;
+}
